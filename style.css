@@ -1,37 +1,55 @@
 body {
     font-family: 'Rubik';
 }
-
-.container {
-    background-color: blue;
+/* ----------------------------------------- Home Page----------------------------------------------------- */
+/* .container {
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.box {
-    background-color: orange;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-}
-
-.box h1 {
-    background-color: orchid;
-    text-align: center;
-}
-
-.box h2 {
-    background-color: yellow;
-    padding: 15px;
-    text-align: center;
-}
-
-#nav{
-    background-color: red;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
     flex-direction: row;
+    background-color: #E10098;
 }
+
+
+.container ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container li {
+    display: inline-block;
+} */
+
+.container{
+    position: relative;
+    max-width: 100%;
+    display:flex;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.container ul {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    list-style: none;
+    display: inline-block;
+    padding-left: 250px;
+    
+}
+
+.container ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+.section h2 {
+    position: center;
+}
+
+#webdev_focus_laptop {
+    width: 100%;
+    height: 100%;
+}
+/* ----------------------------------------- Home Page End ----------------------------------------------------- */
