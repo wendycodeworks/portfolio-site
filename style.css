@@ -89,7 +89,7 @@ img {
 }
 
 .about-content-grid-wrapper img {
-    height: auto;
+    height: 550px;
     width: 250px;
     
 }
@@ -101,7 +101,7 @@ img {
     flex-direction: column;
     
 }
-.about-content-grid-container-night {
+.about-content-container-night {
     
     display: flex ;
     justify-content: center;
@@ -110,7 +110,7 @@ img {
     
 }
 
-.about-content-grid-item {
+.about-content-item {
     padding: 20px;
     font-size: 30px;
     text-align: center;
