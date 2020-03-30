@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Rubik';
-    font-size: 20px;
+    font-size: 7px;
     /* background-color: palegreen; */
 }
 /* ----------------------------------------- Home Page----------------------------------------------------- */
@@ -16,10 +16,16 @@ body {
 }
 
 .logo {
-    display: block;
+    display: inline-block;
     /* background-color: aliceblue; */
-    margin-top: 30px;
-    padding: 10px;
+    font-family: 'Rubik';
+    padding: 5px;
+    margin: 16px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-bar{
@@ -27,29 +33,25 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: end;
+    margin: 0px;
+    padding: 0px;
     /* background-color: #E10098; */
-    padding-left: 10px;
 }
 
-
-/* .nav-bar h1 {
-    margin: 30px;
-    padding-top: 16px;
-    float: left;
-} */
 
 .nav-bar ul {
     display: flex;
     list-style-type: none;
-    float: right;
+    margin: 0px;
+    padding: 0px;
     
 }
 
 .nav-bar li {
+    font-size: 15px;
     display: inline-block;
     padding: 5px;
     margin: 1rem;
-    float: right;
 }
 
 
@@ -63,14 +65,20 @@ body {
 }
 
 .home h2 {
-    font-size: 70px;
+    font-size: 25px;
 }
 
-#webdev_focus_laptop {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
+    width: 550px;
     height: auto;
 }
 /* ----------------------------------------- Home Page End ----------------------------------------------------- */
+/* ---------------------------------------------About me---------------------------------------------- */
+.about-content-grid {
+    display: grid;
+    text-align: center;
+}
+/* ---------------------------------------------About me end---------------------------------------------- */
