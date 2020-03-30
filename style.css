@@ -1,5 +1,7 @@
 body {
     font-family: 'Rubik';
+    font-size: 20px;
+    background-color: palegreen;
 }
 /* ----------------------------------------- Home Page----------------------------------------------------- */
 /* .container {
@@ -44,8 +46,8 @@ body {
     text-align: right;
 }
 
-.section h2 {
-    position: center;
+.home h2 {
+    font-size: 70px;
 }
 
 #webdev_focus_laptop {
