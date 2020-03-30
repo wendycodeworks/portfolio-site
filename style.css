@@ -77,8 +77,42 @@ img {
 }
 /* ----------------------------------------- Home Page End ----------------------------------------------------- */
 /* ---------------------------------------------About me---------------------------------------------- */
-.about-content-grid {
-    display: grid;
+.about-content-grid-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* grid-column-gap: 50px;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px; */
+    
+}
+
+.about-content-grid-wrapper img {
+    height: auto;
+    width: 250px;
+    
+}
+
+.about-content-grid-container-day {
+
+    display: flex ;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.about-content-grid-container-night {
+    
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+.about-content-grid-item {
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
 }
 /* ---------------------------------------------About me end---------------------------------------------- */
