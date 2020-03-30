@@ -64,6 +64,11 @@ body {
     color: #E10098;
 }
 
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .home h2 {
     font-size: 25px;
 }
@@ -75,6 +80,20 @@ img {
     width: 550px;
     height: auto;
 }
+
+.btn {
+    background-image: linear-gradient(to bottom right, #E10098, white) ;
+    display: inline-block;
+	margin: 20px;
+	font-size: 16px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	line-height: 24px;
+	color: #ffffff;
+	position: relative;
+}
+
+
 /* ----------------------------------------- Home Page End ----------------------------------------------------- */
 /* ---------------------------------------------About me---------------------------------------------- */
 .about-content-grid-wrapper {
@@ -89,7 +108,7 @@ img {
 }
 
 .about-content-grid-wrapper img {
-    height: 550px;
+    height: 200px;
     width: 250px;
     
 }
