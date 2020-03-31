@@ -125,7 +125,7 @@ body {
     align-items: center;
 }
 .home h2 {
-    font-size: 25px;
+    font-size: var(--main-theme-h2)
 }
 
 img {
@@ -156,6 +156,7 @@ img {
 /* ---------------------------------------------About me---------------------------------------------- */
 .about-me-heading {
     font-size: var(--main-theme-h1);
+    text-align: center;
 }
 
 .about-content-grid-wrapper {
@@ -200,6 +201,7 @@ img {
 /* ---------------------------------------------Portfolio---------------------------------------------- */
 .portfolio-heading {
     font-size: var(--main-theme-h1);
+    text-align: center;
 }
 
 .portfolio-content {
@@ -220,6 +222,7 @@ img {
 /* ---------------------------------------------Blog---------------------------------------------- */
 .blog-heading {
     font-size: var(--main-theme-h1);
+    text-align: center;
 }
 
 .blog-container-main {
