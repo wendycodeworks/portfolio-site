@@ -138,10 +138,17 @@ img {
 }
 /* ---------------------------------------------About me end---------------------------------------------- */
 /* ---------------------------------------------Blog---------------------------------------------- */
+.blog-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap-reverse;
+}
+
 .blog-item {
         width: 250px;
         height: 300px;
-        border: grey;
+        background-color: black;
         border-radius: 20px;
         cursor: pointer;
         box-shadow: 4px 8px 16px #eceff1;
