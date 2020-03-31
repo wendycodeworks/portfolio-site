@@ -294,7 +294,10 @@ img {
       }
 
       .blog-description p {
+        text-align: left;
         margin-top: 7px;
+        font-size: 10px;
+        padding: 10px 0 15px 0;
       }
     
 /* ---------------------------------------------Blog end---------------------------------------------- */
