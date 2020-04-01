@@ -121,14 +121,14 @@ body {
 }
 
 /* Adjusting nav and buttons for mobile */
-@media screen and (max-width: 415px){
+@media screen and (max-width: 600px){
 
     .container{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     max-width: 100%;
-    background-color: var(--main-theme-accent-color);
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.527);
     }
 
     .logo {
@@ -195,7 +195,7 @@ body {
 
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 600px){
     .home-art{
         width: 350px;
 }
