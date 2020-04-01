@@ -41,7 +41,13 @@ This portfolio website works to simplify the message, focusing on succinct commu
 
 ## Screenshots
 
+![Home page](C:\Users\wendy\projects\Week 5\portfolio-site\assets\portfolio-img\portfolio-site-homepage.png)
 
+![About me page](C:\Users\wendy\projects\Week 5\portfolio-site\assets\portfolio-img\portfolio-site-aboutpage.png)
+
+![Portfolio page](C:\Users\wendy\projects\Week 5\portfolio-site\assets\portfolio-img\portfolio-site-projectspage.png)
+
+![Blog page](C:\Users\wendy\projects\Week 5\portfolio-site\assets\portfolio-img\portfolio-site-blog.png)
 
 ## Target audience
 
