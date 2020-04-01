@@ -20,23 +20,23 @@ This portfolio website works to simplify the message, focusing on succinct commu
 
 ## Features
 
-##### 1. Navigation
+### 1. Navigation
 
 Navigation has been kept simple and intuitive with a horizontal navigation bar in the header. The labels are conventional, with the exception of the 'about me' page which is labelled "What I do". 
 
-##### 2. Footer
+### 2. Footer
 
-##### 3. Blog and project cards
+### 3. Blog and project cards
 
-##### 4. Resume download
+### 4. Resume download
 
-##### Responsive web design
+### Responsive web design
 
 The website can be viewed on a mobile device without distortion of the components and elements. A combination of flexbox and media queries makes it possible to view the website on various mobile screen sizes. Viewing the website on a tablet device will display the web page.
 
-##### Semantic HTML
+### Semantic HTML
 
-##### Subresource integrity
+### Subresource integrity
 
 ## Sitemap & wireframes
 
@@ -61,9 +61,7 @@ The website can be viewed on a mobile device without distortion of the component
 
 ## Target audience
 
-* Clients in professional services
-* Potential employers
-* 
+
 
 ## Tech stack
 
@@ -72,3 +70,6 @@ HTML
 CSS
 
 GitPages
+
+## Project management
+
