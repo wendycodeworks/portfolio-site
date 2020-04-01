@@ -19,7 +19,6 @@ html {
 body {
     font-family: 'Rubik';
     font-size: 7px;
-    /* background-color: palegreen; */
 }
 
 .container {
@@ -120,7 +119,50 @@ body {
     transform: translate(0, -5px);
 }
 
+.footer-social-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
+.footer-social-menu p {
+    font-size: 10px;
+    line-height: 60px;
+    margin: 6px;
+}
+
+.footer-social-menu ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.footer-social-menu ul li {
+    list-style: none;
+    margin: 6px;
+}
+
+.footer-social-menu ul li .fab {
+    font-size: 15px;
+    line-height: 30px;
+    transition: .6s;
+    color: var(--main-theme-secondary-color);
+}
+
+.footer-social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--main-theme-tertiary-color);
+    text-align: center;
+    transition: .1s;
+}
+
+.footer-social-menu ul li a:hover {
+    transform: translate(0, -5px);
+}
 
 /* -------------------------------------------------General Styles End---------------------------------------------------------------- */
 
