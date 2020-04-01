@@ -49,7 +49,6 @@ body {
     color: var(--main-theme-dark-accent-color);
 }
 
-
 .nav-bar{
     position: relative;
     display:flex;
@@ -59,7 +58,6 @@ body {
     padding: 0px;
     /* background-color: #E10098; */
 }
-
 
 .nav-bar ul {
     display: flex;
@@ -79,7 +77,6 @@ body {
     margin: 1rem;
 }
 
-
 .nav-bar a {
     text-decoration: none;
     color: black;
@@ -88,7 +85,6 @@ body {
 .nav-bar ul li a:hover {
     color: var(--main-theme-tertiary-color);
 }
-
 
 .social-menu ul {
     display: flex;
@@ -100,7 +96,6 @@ body {
     list-style: none;
     margin: 10px;
 }
-
 
 .social-menu ul li .fab {
     font-size: 30px;
@@ -125,7 +120,57 @@ body {
     transform: translate(0, -5px);
 }
 
-/* -------------------------------------------------General Styles---------------------------------------------------------------- */
+/* Adjusting nav and buttons for mobile */
+@media screen and (max-width: 415px){
+
+    .container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    max-width: 100%;
+    background-color: var(--main-theme-accent-color);
+    }
+
+    .logo {
+        display: inline-block;
+        font-family: 'Rubik';
+        text-align: center;
+        padding: 5px;
+        margin: 15px 0 5px 0;
+    }
+
+    .nav-bar{
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: -10px 0 0 0;
+        padding: 0px;
+    }
+
+
+    .nav-bar ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        font-weight: 300; 
+        font-size: 15px;
+        
+    }
+
+    .nav-bar li {
+        font-size: 15px;
+        display: inline-block;
+        padding: 5px;
+        margin: 1rem;
+    }
+
+
+}
+
+/* -------------------------------------------------General Styles End---------------------------------------------------------------- */
 
 
 /* ----------------------------------------- Home Page----------------------------------------------------- */
@@ -147,7 +192,13 @@ body {
     margin-right: auto;
     width: 550px;
     height: auto;
-    
+
+}
+
+@media screen and (max-width: 415px){
+    .home-art{
+        width: 350px;
+}
 }
 
 /* ----------------------------------------- Home Page End ----------------------------------------------------- */
