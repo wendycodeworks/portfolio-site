@@ -36,7 +36,9 @@ The website can be viewed on a mobile device without distortion of the component
 
 ### Semantic HTML
 
-### Subresource integrity
+### Subresource integrity (SRI)
+
+The website makes use of Content Delivery Networks (CDNs) for fonts and icons. Using CDNs does come at a risk. Malicious content can be injected into a CDN in the case of an attack. Applying SRI adds a basic layer of security.
 
 ## Sitemap & wireframes
 
