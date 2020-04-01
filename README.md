@@ -41,13 +41,13 @@ This portfolio website works to simplify the message, focusing on succinct commu
 
 ## Screenshots
 
-![Home page](.\assets\portfolio-img\portfolio-site-homepage.png)
+![Home page](./assets/portfolio-img/portfolio-site-homepage.png)
 
-![About me page](.\assets\portfolio-img\portfolio-site-aboutpage.png)
+![About me page](./assets/portfolio-img/portfolio-site-aboutpage.png)
 
-![Portfolio page](.\assets\portfolio-img\portfolio-site-projectspage.png)
+![Portfolio page](./assets/portfolio-img/portfolio-site-projectspage.png)
 
-![Blog page](.\assets\portfolio-img\portfolio-site-blog.png)
+![Blog page](./assets/portfolio-img/portfolio-site-blog.png)
 
 ## Target audience
 
