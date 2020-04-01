@@ -241,45 +241,61 @@ body {
 
 .portfolio-content {
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    position: relative;
+    width: 450px;
+    height: auto;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
 }
 
 .portfolio-project {
-    display: flex;
+    /* display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
+    width: 450px;
+    height: auto; */
+    margin-bottom: 25px;
     padding-top: 20px;
+    border-radius: 20%;
+    box-shadow: 4px 8px 16px #eceff1;
+
 }
 
 .portfolio-project img {
     width: 410px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
+    text-align: center;
 }
 
 .project-details {
-    display: block;
-    width: 150px;
+    width: 410px;
     height: auto;
-    background-color: rgba(47, 46, 65, 0.575);
-    color: white;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 20px;
+    /* background-color: rgba(47, 46, 65, 0.575); */
+    color: black;
 }
 
 .project-details h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 0 2px 0;
 }
 
 .project-details p {
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     margin: 0 0 2px 0;
+    padding: 0 15px 15px 15px;
 }
 
 .project-details .fab {
@@ -299,7 +315,7 @@ body {
 }
 
 
-.project-details a:hover {
+.project-details  a:hover {
     transform: translate(0, 5px);
     color: var(--main-theme-secondary-color);
 }
