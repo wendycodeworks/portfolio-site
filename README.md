@@ -52,25 +52,25 @@ The website makes use of Content Delivery Networks (CDNs) for fonts and icons. U
 
 ### Sitemap
 
-![](./src/docs/portfolio-site-map.png)
+![](./docs/portfolio-site-map.png)
 
 ### Wireframes
 
 The actual website deviated significantly from the wireframes. During the development process it became clear that information can be succinctly communicated through fewer elements. 
 
-![portfolio-site-wireframe](./src/docs/portfolio-site-wireframe.png)
+![portfolio-site-wireframe](./docs/portfolio-site-wireframe.png)
 
 
 
 ## Screenshots
 
-![Home page](./src/assets/portfolio-img/portfolio-site-homepage.png)
+![Home page](./assets/portfolio-img/portfolio-site-homepage.png)
 
-![About me page](./src/assets/portfolio-img/portfolio-site-aboutpage.png)
+![About me page](./assets/portfolio-img/portfolio-site-aboutpage.png)
 
-![Portfolio page](./src/assets/portfolio-img/portfolio-site-projectspage.png)
+![Portfolio page](./assets/portfolio-img/portfolio-site-projectspage.png)
 
-![Blog page](./src/assets/portfolio-img/portfolio-site-blog.png)
+![Blog page](./assets/portfolio-img/portfolio-site-blog.png)
 
 ## Target audience
 
