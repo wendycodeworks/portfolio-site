@@ -444,9 +444,12 @@ body {
     /* general end */
 
     /* Home page */
+    .home-greeting {
+        padding-top: 20px;
+    }
+
     .home-art {
         width: 310px;
-        margin-top: 20px;
            
     }
     /* Home page end */
